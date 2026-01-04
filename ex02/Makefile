@@ -2,7 +2,7 @@ NAME = templates
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 FILES = main.cpp
-HFILES = templates.hpp
+HFILES = Array.hpp
 
 OBJ = $(FILES:.cpp=.o)
 

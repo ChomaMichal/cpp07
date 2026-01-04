@@ -5,8 +5,8 @@ void	add_2(int *i){
 	(*i) += 2;
 }
 
-void	dev_2(float *i){
-	(*i) /= 2;
+void	hehe(float *i){
+	std::cout << i << std::endl;
 }
 
 
@@ -23,13 +23,13 @@ int main(){
 	}
 	std::cout << std::endl;
 	
-	float arrf[7] = {1,2,3,4,5,6,7};
+	const float arrf[7] = {1,2,3,4,5,6,7};
 
 	for(size_t i = 0; i < 7; i ++){
 		std::cout << arrf[i] << " ,";
 	}
 	std::cout << std::endl;
-	iter(arrf, 7, dev_2);
+	iter(arrf, 7, hehe);
 	for(size_t i = 0; i < 7; i ++){
 		std::cout << arrf[i] << " ,";
 	}
