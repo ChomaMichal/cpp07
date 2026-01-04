@@ -5,8 +5,8 @@ void	add_2(int *i){
 	(*i) += 2;
 }
 
-void	hehe(float *i){
-	std::cout << i << std::endl;
+void	hehe(const float *i){
+	std::cout << *i << std::endl;
 }
 
 
